@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Tracker</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1>Task Tracker</h1>
+
+    <form id="taskForm">
+        <label for="task">Task:</label>
+        <input type="text" id="task" required>
+
+        <label for="description">Description:</label>
+        <input type="text" id="description" required><br></br>
+
+        <button type="button" id="startStopButton">Start</button>
+    </form>
+
+    <div id="timer">00:00:00</div>
+
+    <table id="taskTable">
+        <thead>
+            <tr>
+                <th>Task</th>
+                <th>Description</th>
+                <th>Time Spent</th>
+            </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Meeting</td>
+            <td>Client Meeting</td>
+            <td>00:50:45</td>
+         </tr>
+         <tr>
+            <td>Front-End</td>
+            <td>Js Implementation</td>
+            <td>02:43:34</td>
+        </tr>
+        <tr>
+            <td>Back-End</td>
+            <td>Java Connectivity</td>
+            <td>00:30:31</td>
+        </tr>
+
+
+        </tbody>
+    </table>
+
+</body>
+<script src="index.js"></script>
+
+</html>
